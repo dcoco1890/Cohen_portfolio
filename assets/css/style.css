@@ -6,3 +6,22 @@ h5,
 h6 {
     font-family: 'Playfair Display', serif;
 }
+
+a,
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+nav {
+    background-color: #384259;
+}
+
+nav a {
+    color: azure;
+    font-size: 1.8vh;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #c4edde;
+}
