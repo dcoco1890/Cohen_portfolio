@@ -55,8 +55,8 @@ span {
 }
 
 .puff-in-center {
-    -webkit-animation: puff-in-center 0.8s linear both;
-    animation: puff-in-center 0.8s linear both;
+    -webkit-animation: puff-in-center 0.6s linear both;
+    animation: puff-in-center 0.6s linear both;
 }
 
 .jello-horizontal {
