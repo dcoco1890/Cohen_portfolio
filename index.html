@@ -17,7 +17,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark mb-4">
-        <a class="ml-5" href="index.html">Cohen</a>
+        <a class="ml-2" href="index.html">Cohen</a>
         <button class="navbar-toggler mr-5" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -79,6 +79,16 @@
 
 
     <script src="assets/js/app.js"></script>
+    <script>
+        const pic = $('.puff-in-center');
+        pic.on("click", toggleIt);
+
+        function toggleIt(e) {
+
+            e.currentTarget.classList.toggle('jello-horizontal');
+            e.currentTarget.classList.toggle('puff-in-center');
+        }
+    </script>
 </body>
 
 </html>
